@@ -8,7 +8,7 @@ tests with no test run, completed verification todos with no verification
 command, plans that silently grew or dropped items, writes outside the
 session's working territory, and long stretches of unplanned tool use.
 
-This is oversight applied to a real subject: the committed example is a
+This is oversight applied to a real subject. The committed example is a
 sanitized window of a Devin CLI session building a dashboard app in
 [cultivated-meat-multiomic](../cultivated-meat-multiomic). The detectors
 run on the agent's own working sessions, not a synthetic benchmark.
@@ -88,7 +88,7 @@ reviewer can audit what counts as evidence.
   app. `examples/reports/dashboard-build-window.{md,json}` is its audit:
   2 findings, one of which (`unverified_claims`-style claim referencing
   work before the window) is a documented false-positive mode, not
-  a real failure. That is the intended reading: the finding is correct
+  a real failure. That is the intended reading. The finding is correct
   that no evidence exists *inside the trajectory*. The human checks and
   moves on.
 - `examples/fixtures/`: small hand-written trajectories exercising each
@@ -108,7 +108,7 @@ before publishing. Redaction is a pipeline step, not a guarantee.
   look at", not "did the agent misbehave".
 - Evidence commands are matched by regex. Verification performed through
   an API call, a GUI, or a previous session will not count.
-- `unplanned_work` sees only this transcript: if the agent's planner is a
+- `unplanned_work` sees only this transcript. If the agent's planner is a
   different subsystem, the finding is about missing observability, which
   is itself worth recording.
 - Currently ingests Devin CLI `sessions.db`. Other formats join through
