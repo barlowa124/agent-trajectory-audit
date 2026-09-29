@@ -1,3 +1,7 @@
+> **This repository has moved.** Active development continues in [barlowa124/trust-tools](https://github.com/barlowa124/trust-tools) under [`agent_trajectory_audit/`](https://github.com/barlowa124/trust-tools/tree/main/agent_trajectory_audit). This repo is archived and kept for link stability.
+
+---
+
 # agent-trajectory-audit
 
 Audit coding-agent sessions for divergence between stated intent and
